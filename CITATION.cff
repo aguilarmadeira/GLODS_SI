@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: "GLODS-SI: Global and Local Optimization using Direct Search — A Scale-Invariant Approach"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Madeira"
+    given-names: "José F. A."
+    orcid: "https://orcid.org/0000-0001-9523-3808"
+    affiliation: "IDMEC, Instituto Superior Técnico, Universidade de Lisboa; ISEL, Instituto Politécnico de Lisboa"
+    email: "aguilarmadeira@tecnico.ulisboa.pt"
+repository-code: "https://github.com/aguilarmadeira/GLODS_SI"
+url: "https://github.com/aguilarmadeira/GLODS_SI"
+license: MIT
+version: "1.0.0"
+date-released: "2026-01-13"
+keywords:
+  - derivative-free optimization
+  - global optimization
+  - direct-search methods
+  - scale invariance
+  - multistart optimization
+  - MATLAB
+abstract: >-
+  GLODS-SI is a scale-invariant reformulation of the GLODS framework for 
+  derivative-free, bound-constrained global optimization. It addresses the 
+  sensitivity of GLODS to heterogeneous variable scales through a two-space 
+  formulation where geometric operations are performed in normalized 
+  coordinates while objective evaluations occur in the original variables.
+references:
+  - type: article
+    authors:
+      - family-names: "Madeira"
+        given-names: "José F. A."
+    title: "Global and Local Optimization using Direct Search — A Scale-Invariant Approach (GLODS-SI)"
+    journal: "Journal of Global Optimization"
+    year: 2026
+    notes: "Submitted"
+  - type: article
+    authors:
+      - family-names: "Custódio"
+        given-names: "A. L."
+      - family-names: "Madeira"
+        given-names: "J. F. A."
+    title: "GLODS: Global and Local Optimization using Direct Search"
+    journal: "Journal of Global Optimization"
+    volume: 62
+    start: 1
+    end: 28
+    year: 2015
+    doi: "10.1007/s10898-014-0224-9"

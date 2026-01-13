@@ -1,0 +1,42 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mlapp
+*.mlappinstall
+*.mltbx
+slprj/
+sccprj/
+codegen/
+*.slxc
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+*.code-workspace
+.vscode/
+
+# Results (large files - regenerate locally)
+results/*.mat
+
+# Compiled files
+*.p
+
+# Log files
+*.log
+diary.txt
