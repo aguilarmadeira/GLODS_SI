@@ -2,41 +2,26 @@
 *.asv
 *.m~
 *.mex*
-*.mlapp
-*.mlappinstall
-*.mltbx
 slprj/
-sccprj/
-codegen/
-*.slxc
+*.autosave
 
-# Temporary files
+# Note on .mat / .h5 files:
+#   These are NOT globally ignored. Small, well-named result files
+#   relevant to reproducibility should be versioned explicitly. Use the
+#   patterns below to keep large or transient outputs out of the repo.
+results/local/
+tmp/
+cache/
+*.log
 *.tmp
-*.bak
-*.swp
-*~
 
-# OS files
+# OS noise
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# IDE
-.idea/
-*.code-workspace
+# Editor
 .vscode/
-
-# Results (large files - regenerate locally)
-results/*.mat
-
-# Compiled files
-*.p
-
-# Log files
-*.log
-diary.txt
+.idea/
+*.swp
+*.swo
