@@ -3,7 +3,7 @@
 **Scale-Invariant Global-Local Direct Search for Engineering Design Optimization**
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-[![DOI](https://img.shields.io/badge/DOI-pending-orange.svg)](https://doi.org/)
+[![DOI](https://img.shields.io/badge/DOI-10.1093%2Fjcde%2Fqwag049-blue.svg)](https://doi.org/10.1093/jcde/qwag049)
 
 GLODS-SI is a derivative-free direct-search method for bound-constrained
 global optimization problems whose decision variables span widely
@@ -21,8 +21,8 @@ accompanies the paper:
 > J. F. A. Madeira,
 > *GLODS-SI: Scale-Invariant Global-Local Direct Search for Engineering
 > Design Optimization*,
-> Journal of Computational Design and Engineering, 2026.
-> Manuscript ID **JCDE-2026-065**.
+> Journal of Computational Design and Engineering, 2026, qwag049.
+> Open Access — DOI: [10.1093/jcde/qwag049](https://doi.org/10.1093/jcde/qwag049).
 
 The numerical results that produced Tables 3 and Figures 3–6 of the
 paper are provided as final artifacts in [`results/`](results/).
@@ -205,7 +205,8 @@ If you use GLODS-SI in academic work, please cite the accompanying paper:
              for Engineering Design Optimization},
   journal = {Journal of Computational Design and Engineering},
   year    = {2026},
-  note    = {Manuscript ID JCDE-2026-065}
+  doi     = {10.1093/jcde/qwag049},
+  note    = {Article qwag049, Open Access}
 }
 ```
 
@@ -231,7 +232,7 @@ This work was supported by *Fundação para a Ciência e a Tecnologia*
 
 ## Contact
 
-**José F. Aguilar Madeira**
+**J. F. A. Madeira**
 IDMEC, Instituto Superior Técnico, Universidade de Lisboa
 ISEL, Instituto Politécnico de Lisboa
 Email: aguilarmadeira@tecnico.ulisboa.pt
